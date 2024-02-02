@@ -1,0 +1,134 @@
+body{
+  background-color: rgb(87, 0, 128);
+}
+.start{
+  margin: 3%;
+  height: 100%;
+}
+
+h1{
+  color: white;
+  text-align: center;
+ 
+}
+.begin{
+  background-color: green;
+  color: white;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0px 43%;
+}
+
+.game{
+  background-color: white;
+  width: 80vw;
+  height: 80vh;
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+h2,.questions{
+  text-align: center;
+}
+
+.questions{
+  margin-top: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.options{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 30px;
+  margin: 110px 30px 10px 30px;
+}
+
+.option{
+  background-color: rgb(38, 174, 219);
+  height: 40px;
+  border-radius: 20px;
+  width: 90%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btns{
+  margin: 60px 40% 0px 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev{
+  padding: 5px;
+  font-size: small;
+  background-color: rgb(70, 124, 210);
+  border-radius: 10%;
+  width: 30%;
+  
+}
+.next{
+  padding: 5px 15px;
+  background-color: rgb(55, 207, 55);
+  border-radius: 10%;
+  width: 30%;
+}
+
+.quit{
+  padding: 5px 15px;
+  background-color: red;
+  border-radius: 10%;
+  width: 30%;
+}
+
+.result{
+  color: rgb(32, 203, 32);
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+
+.game2{
+  background-color: white;
+  border-left: 5px solid rgb(151, 86, 255);
+  width: 50vw;
+  height: 50vh;
+  padding: 20px;
+  margin: auto;
+}
+
+.score{
+  color: rgb(30, 30, 177);
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Details{
+  margin: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.last{
+  margin: 30px 32%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.again{
+background-color: rgb(192, 192, 192);
+border-color: grey;
+color: rgb(56, 56, 56);
+}
+.restart{
+  color: rgb(0, 137, 0);
+  border-color: rgb(4, 56, 4);
+  background-color: rgb(187, 255, 187);
+}
